@@ -10,13 +10,13 @@ template<class T>
 class LinkedList {
    private:
     // The internal linked-list node struct
-    struct List {
-        string value;
-        List *next;
+    struct T {
+        T value;
+        T *next;
     };
 
     // A pointer to this objects internal list
-    List *theList;
+    T *theList;
 
    public:
     // Print the list to the provided ostream
